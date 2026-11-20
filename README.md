@@ -126,6 +126,28 @@ Las fases rojas son ejecuciones controladas de la prueba antes de implementar el
 
 ## APIs y servidores
 
+## 🔵 Fase azul de refactorización - 15 rondas
+
+Después de cada implementación se ordenó el código y se volvió a comprobar la suite sin cambiar el comportamiento.
+
+| Ronda | Evidencia azul |
+|---|---|
+| 1 | ![Ronda 1 azul](docs/capturas/ronda-01-azul.png) |
+| 2 | ![Ronda 2 azul](docs/capturas/ronda-02-azul.png) |
+| 3 | ![Ronda 3 azul](docs/capturas/ronda-03-azul.png) |
+| 4 | ![Ronda 4 azul](docs/capturas/ronda-04-azul.png) |
+| 5 | ![Ronda 5 azul](docs/capturas/ronda-05-azul.png) |
+| 6 | ![Ronda 6 azul](docs/capturas/ronda-06-azul.png) |
+| 7 | ![Ronda 7 azul](docs/capturas/ronda-07-azul.png) |
+| 8 | ![Ronda 8 azul](docs/capturas/ronda-08-azul.png) |
+| 9 | ![Ronda 9 azul](docs/capturas/ronda-09-azul.png) |
+| 10 | ![Ronda 10 azul](docs/capturas/ronda-10-azul.png) |
+| 11 | ![Ronda 11 azul](docs/capturas/ronda-11-azul.png) |
+| 12 | ![Ronda 12 azul](docs/capturas/ronda-12-azul.png) |
+| 13 | ![Ronda 13 azul](docs/capturas/ronda-13-azul.png) |
+| 14 | ![Ronda 14 azul](docs/capturas/ronda-14-azul.png) |
+| 15 | ![Ronda 15 azul](docs/capturas/ronda-15-azul.png) |
+
 **No hay ninguna API que instalar, activar ni configurar.** El manual especifica servicios simulados y datos en memoria. La aplicación funciona sin llave, sin Node, sin base de datos y sin conexión a Internet.
 
 Para convertirla en una app real serían necesarios proveedores autorizados para pagos, mapas/transporte, autenticación, notificaciones y un backend seguro. Esos servicios no se incluyen porque requieren cuentas, llaves privadas y cumplimiento legal.
