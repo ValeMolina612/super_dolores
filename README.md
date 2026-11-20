@@ -117,53 +117,6 @@ Después de cada implementación se ordenó el código y se volvió a comprobar 
 | 14 | ![Ronda 14 azul](docs/capturas/ronda-14-azul.png) |
 | 15 | ![Ronda 15 azul](docs/capturas/ronda-15-azul.png) |
 
-**No hay ninguna API que instalar, activar ni configurar.** El manual especifica servicios simulados y datos en memoria. La aplicación funciona sin llave, sin Node, sin base de datos y sin conexión a Internet.
 
-Para convertirla en una app real serían necesarios proveedores autorizados para pagos, mapas/transporte, autenticación, notificaciones y un backend seguro. Esos servicios no se incluyen porque requieren cuentas, llaves privadas y cumplimiento legal.
 
-## Ejecutar las pruebas
 
-Abre una terminal dentro de la carpeta:
-
-```powershell
-flutter pub get
-flutter test
-```
-
-## Ejecutar en el emulador Android
-
-1. Abre Android Studio y en **Device Manager** inicia tu emulador.
-2. Comprueba el identificador:
-
-```powershell
-flutter devices
-```
-
-3. Si aparece, por ejemplo, `emulator-5554`, ejecuta:
-
-```powershell
-flutter run -d emulator-5554
-```
-
-Si tu emulador tiene otro identificador, usa el que aparece en `flutter devices`. También puedes ejecutar simplemente `flutter run` y elegir el dispositivo.
-
-## Funciones para probar
-
-- Cambiar entre Ana, Luis y Marta.
-- Enviar mensajes y $50 desde el chat.
-- Revisar saldos y movimientos.
-- Comprar nieve, talavera o cajeta.
-- Simular un viaje hasta finalizarlo.
-- Consultar métricas didácticas.
-- Apagar módulos con los interruptores de emergencia.
-
-## Estructura
-
-```text
-lib/
-  dominio/       Reglas puras, modelos y servicios simulados
-  presentacion/  Pantallas de la SuperApp
-  main.dart      Entrada de Flutter
-test/            Pruebas de dominio y widgets
-android/         Proyecto para el emulador Android
-```
