@@ -1,38 +1,7 @@
 # Super Dolores
 
-SuperApp didáctica basada en el manual TDD: mensajería, monedero, comercio, transporte, lealtad, permisos, interruptores de emergencia y métricas en una sola aplicación Flutter.
-
-> Esta aplicación es una simulación escolar. No mueve dinero real, no solicita viajes reales y no almacena datos personales.
-
-## Fases TDD
-
-Cada ronda sigue el mismo ciclo:
-
-1. 🔴 **Rojo:** se escribe una prueba que describe el comportamiento y se confirma que falla.
-2. 🟢 **Verde:** se agrega la implementación mínima y la prueba pasa.
-3. 🔵 **Refactorización:** se ordena el código manteniendo todas las pruebas en verde.
-
-| Ronda | Funcionalidad | Pruebas |
-|---|---|---|
-| 1 | Preparación e inicio Flutter | Inicio real de `SuperDoloresApp` |
-| 2 | Dinero y libro de movimientos | Formato, saldo, conservación e idempotencia |
-| 3 | Mensajería | Validaciones, conversaciones y dinero en chat |
-| 4 | Comercio | Compra, inventario y saldo |
-| 5 | Transporte | Solicitud y máquina de estados |
-| 6 | Eventos | Registro de uso desacoplado |
-| 7 | Mini-apps y permisos | Interruptor de emergencia |
-| 8 | Integración entre servicios | Chat + pagos + lealtad |
-| 9 | Lealtad | Puntos por acciones útiles |
-| 10 | Notificaciones | Mensajes seguros dentro de la app |
-| 11 | Analítica | Uso por servicio y multiservicio |
-| 12 | Retención | DAU, WAU y MAU simulados |
-| 13 | ViewModels y pantallas | Interacción de los seis módulos |
-| 14 | Pruebas con personas | Guía de usabilidad del manual |
-| 15 | Camino a producción | Advertencias legales, privacidad y seguridad |
 
 ## Capturas reales de las 15 rondas
-
-Las fases rojas son ejecuciones controladas de la prueba antes de implementar el comportamiento. Las fases verdes muestran la suite completa aprobada. Todas fueron tomadas en Visual Studio Code y muestran la cuenta `ValeMolina612 (GitHub)`.
 
 ### Ronda 1 - Preparación
 #### 🔴 Roja
